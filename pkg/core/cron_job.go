@@ -17,8 +17,8 @@ func (s *CoreService) sendHourReport() {
 		},
 		// query parameters
 		map[string]string{
-			"code":   code,
-			"mobile": req.Mobile,
+			"code":   "code",
+			"mobile": "15510165711",
 			"name":   "爱直飞",
 		})
 
